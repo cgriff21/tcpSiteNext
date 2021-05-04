@@ -14,3 +14,125 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Home */
+.home-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(/images/hands.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+
+/* CircleMenu */
+
+.circle-menu {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-top: -160px;
+  margin-left: -168px;
+}
+
+.circle-menu-data {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-left: -30px;
+}
+
+
+/* MenuToggle */
+
+.circle-menu-toggle {
+  position: relative;
+  background-color: #ffffff;
+  z-index: 200;
+}
+
+.circle-menu-toggle:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+/* .circle-menu-burger-bar {
+  display: block;
+  width: 1.2em;
+  height: 0.2rem;
+  background: #ffffff;
+  margin-bottom: 0.3em;
+  border-radius: 1em;
+  transition: all 0.5s;
+} */
+
+.circle-menu-toggle:hover .circle-menu-burger-bar {
+  background: #ffffff;
+}
+
+.circle-menu-burger-bar:last-child {
+  margin-bottom: 0;
+}
+
+.circle-menu-active .circle-menu-toggle .circle-menu-burger-bar:nth-child(1) {
+  transform: translate(-0.1em, 0.17em) rotateZ(-40deg);
+  width: 1.2em;
+}
+
+.circle-menu-active .circle-menu-toggle .circle-menu-burger-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.circle-menu-active .circle-menu-toggle .circle-menu-burger-bar:nth-child(3) {
+  transform: translate(-0.1em, -0.17em) rotateZ(40deg);
+  width: 1.2em;
+}
+
+/* MenuItem */
+
+.circle-menu-item {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -72.5px;
+  background-color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 100;
+}
+
+.circle-menu-item .circle-menu-item-icon {
+  font-size: 1.8em;
+}
+
+.circle-menu-active .circle-menu-item {
+  visibility: visible;
+  opacity: 0.85;
+}
+
+/* CircleButton */
+
+.circle-button {
+  /* border: 0.2em solid #ffffff; */
+  color: #000000;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-flex;
+  margin-right: 1em;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  transition: all 0.5s;
+  opacity: 0.85;
+
+}
+
+.circle-button:last-child {
+  margin-right: 0;
+}
