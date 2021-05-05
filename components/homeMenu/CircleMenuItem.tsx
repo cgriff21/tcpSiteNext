@@ -2,12 +2,13 @@ import React from 'react';
 import { CircleButton, CircleButtonProps } from './CircleButton';
 
 export interface CircleMenuItemProps extends CircleButtonProps {
+  // size?: number,
   radius?: number,
   menuActive?: boolean,
   rotationAngle?: number
 };
 
-const CircleMenuItem: React.FC<CircleMenuItemProps> = ({
+export const CircleMenuItem: React.FC<CircleMenuItemProps> = ({
   size = 2,
   radius = 1,
   menuActive = false,
@@ -27,4 +28,3 @@ const CircleMenuItem: React.FC<CircleMenuItemProps> = ({
   )
 };
 
-export default CircleMenuItem

@@ -2,7 +2,7 @@ import React, { CSSProperties, MouseEvent } from 'react';
 import Tooltip, { TooltipProps } from '@material-ui/core/Tooltip/Tooltip';
 
 export interface CircleButtonProps {
-  size: number,
+  size?: number,
   link?: string,
   tooltip?: string,
   tooltipPlacement?: TooltipProps['placement'],

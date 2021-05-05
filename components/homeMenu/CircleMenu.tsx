@@ -1,5 +1,5 @@
 import React, { ReactElement, useState } from 'react';
-import CircleMenuItem, { CircleMenuItemProps } from './CircleMenuItem';
+import { CircleMenuItem, CircleMenuItemProps } from './CircleMenuItem';
 import { CircleMenuToggle } from './CircleMenuToggle';
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
   itemSize?: number
 }
 
-const CircleMenu: React.FC<Props> = ({
+export const CircleMenu: React.FC<Props> = ({
   rotationAngleInclusive = true,
   radius = 2,
   itemSize = 2,
@@ -53,4 +53,3 @@ const CircleMenu: React.FC<Props> = ({
   );
 };
 
-export default CircleMenu

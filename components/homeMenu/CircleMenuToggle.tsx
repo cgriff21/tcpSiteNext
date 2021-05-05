@@ -1,5 +1,7 @@
 import React from 'react';
 import { CircleButton } from './CircleButton';
+import Image from 'next/image'
+
 
 interface Props {
   size: number,
@@ -13,12 +15,15 @@ export const CircleMenuToggle: React.FC<Props> = ({ size = 3, ...props }) => {
       size={size}
       className='circle-menu-toggle'
     >
-      <div className='circle-menu-burger'>
-        <span >Click To Start</span>
-        {/* <span className='circle-menu-burger-bar'></span>
-        <span className='circle-menu-burger-bar'></span>
-        <span className='circle-menu-burger-bar'></span> */}
+      <div className='circle-menu-main'>
+        <Image
+          src="/images/logo.png"
+          alt="The Chance Project Logo"
+          width={250}
+          height={125}
+        />
       </div>
     </CircleButton>
   );
 };
+
