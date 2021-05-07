@@ -8,12 +8,14 @@ interface Props {
   rotationAngleInclusive?: boolean,
   radius?: number,
   itemSize?: number
+  mainSize?: number
 }
 
 export const CircleMenu: React.FC<Props> = ({
   rotationAngleInclusive = true,
   radius = 2,
   itemSize = 2,
+  mainSize = 2,
   ...props
 }) => {
 
@@ -28,7 +30,7 @@ export const CircleMenu: React.FC<Props> = ({
 
   return (
     <div className={'circle-menu' + (menuActive ? ' circle-menu-active' : '')}>
-      <CircleMenuToggle size={20} toggleMenu={toggleMenu} />
+      <CircleMenuToggle size={mainSize} toggleMenu={toggleMenu} />
       <div className='circle-menu-data'>
         {React.Children.map(props.children, (child, index: number) => {
           // Calculating angle

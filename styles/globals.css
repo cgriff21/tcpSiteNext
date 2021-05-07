@@ -104,3 +104,29 @@ a {
 .circle-button:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 600px) {
+  .circle-menu-item-text {
+    font-size: 0.8rem;
+  }
+  .circle-menu-item {
+    margin-left: -56px;
+  } 
+  .circle-menu {
+    margin-left: 14px;
+  } 
+  
+}
+
+@media (max-width: 400px) {
+  .circle-menu-item-text {
+    font-size: 0.65rem;
+  }
+  .circle-menu-item {
+    margin-left: -48px;
+  } 
+  .circle-menu {
+    margin-left: 8px;
+  } 
+  
+}
