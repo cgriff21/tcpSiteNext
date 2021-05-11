@@ -61,21 +61,21 @@ export default function Home() {
           </Link>
         </CircleMenuItem>
         <CircleMenuItem >
-          <Link href="contact">
+          <Link href="/contact">
             <a className="circle-menu-item-text">
               Contact
             </a>
           </Link>
         </CircleMenuItem>
         <CircleMenuItem >
-          <Link href="who-we-are">
+          <Link href="/about">
             <a className="circle-menu-item-text">
               Who We are
             </a>
           </Link>
         </CircleMenuItem>
         <CircleMenuItem >
-          <Link href="/">
+          <Link href="/initiatives">
             <a className="circle-menu-item-text">
               Our Initiatives
             </a>
