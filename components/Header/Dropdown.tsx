@@ -1,5 +1,5 @@
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useEffect, useRef, useState } from "react";
+import { Fragment } from "react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
 import Link from 'next/link'
@@ -41,7 +41,7 @@ export default function Dropdown() {
                         className={`${active ? "bg-violet-500 text-gray" : "text-gray-900"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                       >
-                        {active ? (
+                        {/* {active ? (
                           <EditActiveIcon
                             className="w-5 h-5 mr-2"
                             aria-hidden="true"
@@ -51,7 +51,7 @@ export default function Dropdown() {
                             className="w-5 h-5 mr-2"
                             aria-hidden="true"
                           />
-                        )}
+                        )} */}
                         Pathways Network
                       </button>
                     )}
@@ -64,7 +64,7 @@ export default function Dropdown() {
                         className={`${active ? "bg-violet-500 text-gray" : "text-gray-900"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                       >
-                        {active ? (
+                        {/* {active ? (
                           <DuplicateActiveIcon
                             className="w-5 h-5 mr-2"
                             aria-hidden="true"
@@ -74,7 +74,7 @@ export default function Dropdown() {
                             className="w-5 h-5 mr-2"
                             aria-hidden="true"
                           />
-                        )}
+                        )} */}
                         Affordable Housing
                       </button>
                     )}
@@ -87,7 +87,7 @@ export default function Dropdown() {
                         className={`${active ? "bg-violet-500 text-gray" : "text-gray-900"
                           } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                       >
-                        {active ? (
+                        {/* {active ? (
                           <ArchiveActiveIcon
                             className="w-5 h-5 mr-2"
                             aria-hidden="true"
@@ -97,7 +97,7 @@ export default function Dropdown() {
                             className="w-5 h-5 mr-2"
                             aria-hidden="true"
                           />
-                        )}
+                        )} */}
                         Landlord Partnership
                       </button>
                     )}
@@ -112,148 +112,148 @@ export default function Dropdown() {
   );
 }
 
-function EditInactiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M4 13V16H7L16 7L13 4L4 13Z"
-        fill="#EDE9FE"
-        stroke="#A78BFA"
-        strokeWidth="2"
-      />
-    </svg>
-  );
-}
+// function EditInactiveIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       viewBox="0 0 20 20"
+//       fill="none"
+//       xmlns="http://www.w3.org/2000/svg"
+//     >
+//       <path
+//         d="M4 13V16H7L16 7L13 4L4 13Z"
+//         fill="#EDE9FE"
+//         stroke="#A78BFA"
+//         strokeWidth="2"
+//       />
+//     </svg>
+//   );
+// }
 
-function EditActiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M4 13V16H7L16 7L13 4L4 13Z"
-        fill="#8B5CF6"
-        stroke="#C4B5FD"
-        strokeWidth="2"
-      />
-    </svg>
-  );
-}
+// function EditActiveIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       viewBox="0 0 20 20"
+//       fill="none"
+//       xmlns="http://www.w3.org/2000/svg"
+//     >
+//       <path
+//         d="M4 13V16H7L16 7L13 4L4 13Z"
+//         fill="#8B5CF6"
+//         stroke="#C4B5FD"
+//         strokeWidth="2"
+//       />
+//     </svg>
+//   );
+// }
 
-function DuplicateInactiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M4 4H12V12H4V4Z"
-        fill="#EDE9FE"
-        stroke="#A78BFA"
-        strokeWidth="2"
-      />
-      <path
-        d="M8 8H16V16H8V8Z"
-        fill="#EDE9FE"
-        stroke="#A78BFA"
-        strokeWidth="2"
-      />
-    </svg>
-  );
-}
+// function DuplicateInactiveIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       viewBox="0 0 20 20"
+//       fill="none"
+//       xmlns="http://www.w3.org/2000/svg"
+//     >
+//       <path
+//         d="M4 4H12V12H4V4Z"
+//         fill="#EDE9FE"
+//         stroke="#A78BFA"
+//         strokeWidth="2"
+//       />
+//       <path
+//         d="M8 8H16V16H8V8Z"
+//         fill="#EDE9FE"
+//         stroke="#A78BFA"
+//         strokeWidth="2"
+//       />
+//     </svg>
+//   );
+// }
+// 
+// function DuplicateActiveIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       viewBox="0 0 20 20"
+//       fill="none"
+//       xmlns="http://www.w3.org/2000/svg"
+//     >
+//       <path
+//         d="M4 4H12V12H4V4Z"
+//         fill="#8B5CF6"
+//         stroke="#C4B5FD"
+//         strokeWidth="2"
+//       />
+//       <path
+//         d="M8 8H16V16H8V8Z"
+//         fill="#8B5CF6"
+//         stroke="#C4B5FD"
+//         strokeWidth="2"
+//       />
+//     </svg>
+//   );
+// }
 
-function DuplicateActiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M4 4H12V12H4V4Z"
-        fill="#8B5CF6"
-        stroke="#C4B5FD"
-        strokeWidth="2"
-      />
-      <path
-        d="M8 8H16V16H8V8Z"
-        fill="#8B5CF6"
-        stroke="#C4B5FD"
-        strokeWidth="2"
-      />
-    </svg>
-  );
-}
+// function ArchiveInactiveIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       viewBox="0 0 20 20"
+//       fill="none"
+//       xmlns="http://www.w3.org/2000/svg"
+//     >
+//       <rect
+//         x="5"
+//         y="8"
+//         width="10"
+//         height="8"
+//         fill="#EDE9FE"
+//         stroke="#A78BFA"
+//         strokeWidth="2"
+//       />
+//       <rect
+//         x="4"
+//         y="4"
+//         width="12"
+//         height="4"
+//         fill="#EDE9FE"
+//         stroke="#A78BFA"
+//         strokeWidth="2"
+//       />
+//       <path d="M8 12H12" stroke="#A78BFA" strokeWidth="2" />
+//     </svg>
+//   );
+// }
 
-function ArchiveInactiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect
-        x="5"
-        y="8"
-        width="10"
-        height="8"
-        fill="#EDE9FE"
-        stroke="#A78BFA"
-        strokeWidth="2"
-      />
-      <rect
-        x="4"
-        y="4"
-        width="12"
-        height="4"
-        fill="#EDE9FE"
-        stroke="#A78BFA"
-        strokeWidth="2"
-      />
-      <path d="M8 12H12" stroke="#A78BFA" strokeWidth="2" />
-    </svg>
-  );
-}
-
-function ArchiveActiveIcon(props) {
-  return (
-    <svg
-      {...props}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect
-        x="5"
-        y="8"
-        width="10"
-        height="8"
-        fill="#8B5CF6"
-        stroke="#C4B5FD"
-        strokeWidth="2"
-      />
-      <rect
-        x="4"
-        y="4"
-        width="12"
-        height="4"
-        fill="#8B5CF6"
-        stroke="#C4B5FD"
-        strokeWidth="2"
-      />
-      <path d="M8 12H12" stroke="#A78BFA" strokeWidth="2" />
-    </svg>
-  );
-}
+// function ArchiveActiveIcon(props) {
+//   return (
+//     <svg
+//       {...props}
+//       viewBox="0 0 20 20"
+//       fill="none"
+//       xmlns="http://www.w3.org/2000/svg"
+//     >
+//       <rect
+//         x="5"
+//         y="8"
+//         width="10"
+//         height="8"
+//         fill="#8B5CF6"
+//         stroke="#C4B5FD"
+//         strokeWidth="2"
+//       />
+//       <rect
+//         x="4"
+//         y="4"
+//         width="12"
+//         height="4"
+//         fill="#8B5CF6"
+//         stroke="#C4B5FD"
+//         strokeWidth="2"
+//       />
+//       <path d="M8 12H12" stroke="#A78BFA" strokeWidth="2" />
+//     </svg>
+//   );
+// }
