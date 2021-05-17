@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import NewsletterAlert from '@components/Alerts/newsletterAlert'
+import NewsletterAlert from '@components/Alerts/NewsletterAlert'
 
 export default function Footer() {
 
