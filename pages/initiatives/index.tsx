@@ -17,7 +17,7 @@ export default function TestPage() {
       <section className="bg-white border-b py-8 ">
         <div className="container max-w-5xl mx-auto">
 
-          <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800 ">
             Our Initiatives
           </h1>
 
@@ -34,7 +34,7 @@ export default function TestPage() {
             </Link>
 
             <Link href="initiatives/income">
-              <a href="https://nextjs.org/docs" className={styles.card}>
+              <a className={styles.card}>
                 <h3>Income &rarr;</h3>
                 <p>Our Economic Mobility Program helps families move toward financial security and introduces pathways to economic opportunity. Outcomes are improved for at-risk families by addressing underlying social determinants of quality of life.</p>
               </a>

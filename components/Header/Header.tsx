@@ -105,7 +105,15 @@ export default function InitiativesHeader() {
                       <Link href="/contact">
                         <a className="mr-5 hover:text-gray-900">Contact Us</a>
                       </Link>
-                      <Dropdown />
+                      <a target="_blank" href="https://www.pathwaysnetwork.net/">
+                        Pathways Network
+                      </a>
+                      <a target="_blank" href="/files/San_Bernardino_County-_Subsidized_housing__Affordable_rental_properties.pdf">
+                        Affordable Housing
+                      </a>
+                      <a target="_blank" href="https://landlordlink.net/">
+                        Landlord Link
+                      </a>
                     </nav>
                   </div>
                 </div>

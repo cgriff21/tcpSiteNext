@@ -18,23 +18,23 @@ export default function About() {
             Early Childhood Education
         </h1>
 
-          <p className="text-center pt-10">Multiple studies show that children with engaged parents, who attend a quality preschool program and those who participate in effective school partnerships perform better in school, are less likely end up on public assistance and/or to turn to crime later in life and are ultimately happier and earn more in their lifetimes.
+          <p className="text-center pt-10 mx-4">Multiple studies show that children with engaged parents, who attend a quality preschool program and those who participate in effective school partnerships perform better in school, are less likely end up on public assistance and/or to turn to crime later in life and are ultimately happier and earn more in their lifetimes.
             </p>
 
-          <p className="text-center pt-10">
+          <p className="text-center pt-10 mx-4">
             The Chance Project employs a multi-pronged approach designed to maximize the power of early childhood education and family development.
             </p>
 
-          <p className="text-center pt-10">
+          <p className="text-center pt-10 mx-4">
             We have established partnerships with school districts, non-profits, and faith based organizations to provide the highest quality early childhood education services to the most vulnerable children and families throughout Southern California.
             </p>
 
-          <p className="text-center pt-10">
+          <p className="text-center pt-10 mx-4">
             We create and support partnerships with early childhood education organizations to expand universal access to all children and families who desire it. This is truly the only way to improve the American education system.
             </p>
 
 
-          <p className="text-center pt-10">
+          <p className="text-center pt-10 mx-4">
             Our K-12 Partnership provide access and support to quality K-12 experiences regardless of location or family income level..
               </p>
 

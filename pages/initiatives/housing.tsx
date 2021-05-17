@@ -18,9 +18,9 @@ export default function About() {
             Housing
         </h1>
 
-          <p className="py-10 text-center">The Chance Project is a leading partner in addressing homelessness in the County of San Bernardino Collaboration among government, developers, landlords, service providers and additional partners is essential to identifying solutions to homelessness. To this end, The Chance Project also currently serves as the lead agency for the multi-agency collaborative known collectively as Pathways Network. The Pathways Network enlists a broad range of over 50 community-based service organizations, government service agencies, faith-based organizations, rental housing owners/operators, and other community stakeholders utilizing national best practice models and innovative locally designed approaches to leverage resources to help facilitate housing solutions for households experiencing or at-risk of homelessness in San Bernardino County.
+          <p className="py-10 text-center mx-4">The Chance Project is a leading partner in addressing homelessness in the County of San Bernardino Collaboration among government, developers, landlords, service providers and additional partners is essential to identifying solutions to homelessness. To this end, The Chance Project also currently serves as the lead agency for the multi-agency collaborative known collectively as Pathways Network. The Pathways Network enlists a broad range of over 50 community-based service organizations, government service agencies, faith-based organizations, rental housing owners/operators, and other community stakeholders utilizing national best practice models and innovative locally designed approaches to leverage resources to help facilitate housing solutions for households experiencing or at-risk of homelessness in San Bernardino County.
             </p>
-          <p className="py-10 text-center">Since 2016, Pathways Network has launched a number of new pilot initiatives focused on implementing evidence-based, cost-effective, best practice strategies to help prevent individuals and families at-risk from becoming homeless in the first place and help divert people who are literally homeless or unstably housed into stable housing solutions utilizing light touch rapid re-housing strategies.
+          <p className="py-10 text-center mx-4">Since 2016, Pathways Network has launched a number of new pilot initiatives focused on implementing evidence-based, cost-effective, best practice strategies to help prevent individuals and families at-risk from becoming homeless in the first place and help divert people who are literally homeless or unstably housed into stable housing solutions utilizing light touch rapid re-housing strategies.
             </p>
 
           <h3 className="text-center font-bold">
@@ -64,7 +64,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-4 align-center mb-8 items-center py-10">
+          <div className="flex flex-wrap align-center mb-8 items-center py-10">
             <div className="lg:w-5/12 px-4 ml-auto mb-6 text-left ">
               <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
                 Shared Housing
@@ -100,7 +100,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap -mx-4 align-center mb-8 items-center py-10">
+            <div className="flex flex-wrap align-center mb-8 items-center py-10">
               <div className="lg:w-5/12 px-4 ml-auto mb-6 text-left ">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
                   Capacity Building

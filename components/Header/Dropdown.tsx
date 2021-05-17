@@ -8,11 +8,11 @@ import Link from 'next/link'
 export default function Dropdown() {
   return (
     <>
-      <Menu as="div" className="relative inline-block text-left">
+      <Menu as="div" className="relative inline-block text-center">
         {({ open }) => (
           <>
             <div>
-              <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray bg-violet-500 rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+              <Menu.Button className="inline-flex w-full text-gray bg-violet-500 rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                 Find Housing
                 <ChevronDownIcon
                   className="w-5 h-5 ml-2 -mr-1 text-violet-200 hover:text-violet-100"
@@ -32,14 +32,14 @@ export default function Dropdown() {
             >
               <Menu.Items
                 static
-                className="absolute w-52 z-50 right-0 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                className="absolute w-40 z-50 right-0 mt-2 origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
               >
-                <Link href="https://www.pathwaysnetwork.net/">
+                <a target="_blank" href="https://www.pathwaysnetwork.net/">
                   <Menu.Item>
                     {({ active }) => (
                       <button
                         className={`${active ? "bg-violet-500 text-gray" : "text-gray-900"
-                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                          } group flex rounded-md items-center w-full px-2 py-2.5 text-sm`}
                       >
                         {/* {active ? (
                           <EditActiveIcon
@@ -56,13 +56,13 @@ export default function Dropdown() {
                       </button>
                     )}
                   </Menu.Item>
-                </Link>
-                <Link href="/files/San_Bernardino_County-_Subsidized_housing__Affordable_rental_properties.pdf">
+                </a>
+                <a target="_blank" href="/files/San_Bernardino_County-_Subsidized_housing__Affordable_rental_properties.pdf">
                   <Menu.Item>
                     {({ active }) => (
                       <button
                         className={`${active ? "bg-violet-500 text-gray" : "text-gray-900"
-                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                          } group flex rounded-md items-center w-full px-2 py-2.5 text-sm`}
                       >
                         {/* {active ? (
                           <DuplicateActiveIcon
@@ -79,13 +79,13 @@ export default function Dropdown() {
                       </button>
                     )}
                   </Menu.Item>
-                </Link>
-                <Link href="https://landlordlink.net/">
+                </a>
+                <a target="_blank" href="https://landlordlink.net/">
                   <Menu.Item>
                     {({ active }) => (
                       <button
                         className={`${active ? "bg-violet-500 text-gray" : "text-gray-900"
-                          } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                          } group flex rounded-md items-center w-full px-2 py-2.5 text-sm`}
                       >
                         {/* {active ? (
                           <ArchiveActiveIcon
@@ -98,11 +98,11 @@ export default function Dropdown() {
                             aria-hidden="true"
                           />
                         )} */}
-                        Landlord Partnership
+                        Landlord Link
                       </button>
                     )}
                   </Menu.Item>
-                </Link>
+                </a>
               </Menu.Items>
             </Transition>
           </>

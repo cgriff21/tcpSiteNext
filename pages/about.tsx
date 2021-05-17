@@ -12,13 +12,13 @@ export default function About() {
       </Head>
 
       <Header />
-      <section className="bg-white border-b py-8">
+      <section className="bg-white border-b py-8 sm:pl-5">
         <div className="container max-w-5xl mx-auto">
           <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
             About Us
         </h1>
 
-            <p className="py-10">We offer a wide range of programs and services designed to give individuals and families more control of their economic mobility by helping them address the root causes of their circumstances and move to a life of self-reliance and prosperity. We help them and their families by providing programs, information and resources and by advocacy, public outreach and media. 
+            <p className="py-10 mx-4">We offer a wide range of programs and services designed to give individuals and families more control of their economic mobility by helping them address the root causes of their circumstances and move to a life of self-reliance and prosperity. We help them and their families by providing programs, information and resources and by advocacy, public outreach and media. 
               
             We leverage technology, entrepreneurial approaches and collective impact collaboration to create sustainable solutions that transform the lives of children, families and communities locally, nationally and worldwide. We bring together entrepreneurs, community organizations, government and like minded individuals to create, finance and implement collaborative projects for the common good.</p>
 
@@ -58,7 +58,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap -mx-4 align-center mb-8 items-center py-10">
+          <div className="flex flex-wrap align-center mb-8 items-center py-10">
             <div className="lg:w-5/12 px-4 ml-auto mb-6 text-left ">
               <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
               Early Childhood Education
