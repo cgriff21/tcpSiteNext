@@ -15,7 +15,10 @@ a {
   box-sizing: border-box;
 }
 
-/* Home */
+
+/*-----------------------------------
+            Home Section  
+-----------------------------------*/
 .home-background {
   position: absolute;
   width: 100%;
@@ -130,3 +133,13 @@ a {
   } 
   
 }
+
+/*-----------------------------------
+            Footer  
+-----------------------------------*/
+
+/* .bottom {
+  position:absolute;
+  bottom:0;
+  width:100%;
+} */
