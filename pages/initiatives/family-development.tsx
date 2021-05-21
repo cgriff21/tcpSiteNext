@@ -18,16 +18,16 @@ export default function About() {
             <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
               Family Development
         </h1>
-            <div className="container max-w-5xl mx-auto">
-              <div className="flex flex-wrap py-10">
-                <div className="lg:w-5/12 px-4 ml-auto mb-6 text-left ">
+            <div className="container max-w-5xl m-auto lg:pt-24">
+              <div className="lg:flex lg:flex-wrap lg:py-10">
+                <div className="lg:w-5/12 px-4 ml-auto mb-6 lg:text-left text-center">
                   <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
                     Family Development Credential
             </h3>
                   <p className="text-gray-600 ">We provide Early Childhood Educators and Family Support Workers with courses to obtain the Family Development Credential, along with continuing education units, to help families to set achievable goals for healthy self-reliance. We level the educational playing field for children by providing parents with the knowledge and tools needed to maximize their influence and the beneficial effect that only they can have on their children.
               </p>
                 </div>
-                <div className="lg:w-6/12 px-4 pt-10 mb-6 ">
+                <div className="md:w-6/12 px-4 mb-6 mx-auto">
                   <Image
                     src="/images/studying.svg"
                     alt="The Chance Project Logo"

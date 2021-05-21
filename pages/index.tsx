@@ -54,13 +54,6 @@ export default function Home() {
           </Link>
         </CircleMenuItem>
         <CircleMenuItem >
-          <Link href="https://www.mightycause.com/organization/Chance-Project">
-            <a className="circle-menu-item-text">
-              Ways To Give
-            </a>
-          </Link>
-        </CircleMenuItem>
-        <CircleMenuItem >
           <Link href="/contact">
             <a className="circle-menu-item-text">
               Contact
@@ -68,9 +61,9 @@ export default function Home() {
           </Link>
         </CircleMenuItem>
         <CircleMenuItem >
-          <Link href="/about">
+          <Link href="https://www.mightycause.com/organization/Chance-Project">
             <a className="circle-menu-item-text">
-              Who We are
+              Ways To Give
             </a>
           </Link>
         </CircleMenuItem>
@@ -78,6 +71,13 @@ export default function Home() {
           <Link href="/initiatives">
             <a className="circle-menu-item-text">
               Our Initiatives
+            </a>
+          </Link>
+        </CircleMenuItem>
+        <CircleMenuItem >
+          <Link href="/about">
+            <a className="circle-menu-item-text">
+              Who We are
             </a>
           </Link>
         </CircleMenuItem>

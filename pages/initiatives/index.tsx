@@ -15,7 +15,7 @@ export default function TestPage() {
 
         <Header />
         <div className="content-wrap">
-          <section className="bg-white py-8">
+          <section className="bg-white py-8 mx-1 md:mx-6">
             <div className="container max-w-5xl mx-auto">
 
               <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800 ">

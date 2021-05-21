@@ -41,8 +41,8 @@ export default function About() {
                 Our K-12 Partnership provide access and support to quality K-12 experiences regardless of location or family income level..
               </p>
 
-              <div className="flex flex-wrap py-10">
-                <div className="lg:w-5/12 px-4 ml-auto mb-6 text-left ">
+              <div className="lg:flex lg:flex-wrap lg:pt-10">
+                <div className="lg:w-5/12 px-4 mr-auto mb-6 lg:text-left text-center">
                   <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
                     The I READ (READY, EAGER, ABLE, DEVELOPED) (2014-2017)
             </h3>
@@ -50,7 +50,7 @@ export default function About() {
                     The I READ (Ready, Eager, Able, Developed) Initiative focused on an important predictor of school success and high school graduation—grade-level reading by the end of third grade. Research shows that children who fall behind early in their education are unlikely to ever catch up. If a child does not attain a solid educational foundation in reading by the end of 3rd Grade, he or she will likely struggle for the rest of their lives.
               </p>
                 </div>
-                <div className="lg:w-6/12 px-4 pt-20 mb-6">
+                <div className="md:w-6/12 px-4 m-auto">
                   <Image
                     src="/images/back-to-school.svg"
                     alt="The Chance Project Logo"
@@ -59,8 +59,8 @@ export default function About() {
                   />
                 </div>
               </div>
-              <div className="flex flex-wrap flex-col-reverse lg:flex-row  py-10">
-                <div className="lg:w-6/12 px-4 pt-10 mb-6">
+              <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:py-10">
+                <div className="md:w-6/12 px-4 mb-6 mx-auto">
                   <Image
                     src="/images/leading.svg"
                     alt="The Chance Project Logo"
@@ -68,7 +68,7 @@ export default function About() {
                     height={721}
                   />
                 </div>
-                <div className="lg:w-5/12 px-4 ml-auto mb-6 text-right">
+                <div className="lg:w-6/12 px-4 ml-auto mb-6 lg:text-right text-center">
                   <div className="align-middle">
                     <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
                       Early Head Start/Child Care Partnerships

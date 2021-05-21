@@ -47,7 +47,7 @@ export default function Contact() {
               Contact Us
         </h1>
             <div className="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap">
-              <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+              <div className="lg:w-6/12 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                 <iframe width="100%" height="100%" className="absolute inset-0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105780.81593511264!2d-117.22080933851284!3d34.05283536765307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db53c64196b143%3A0x75d9e9ca3bdbba67!2sRedlands%2C%20CA!5e0!3m2!1sen!2sus!4v1620756286043!5m2!1sen!2sus" ></iframe>
 
 
@@ -64,7 +64,7 @@ export default function Contact() {
                   </div>
                 </div>
               </div>
-              <form onSubmit={submitContact} className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+              <form onSubmit={submitContact} className="lg:w-5/12 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                 <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Send Us A Message</h2>
                 <div className="relative mb-4">
                   <label htmlFor='name' className="leading-7 text-sm text-gray-600">Name</label>

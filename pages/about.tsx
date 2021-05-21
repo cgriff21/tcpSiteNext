@@ -20,28 +20,29 @@ export default function About() {
             About Us
         </h1>
 
-            <p className="py-10 mx-4">We offer a wide range of programs and services designed to give individuals and families more control of their economic mobility by helping them address the root causes of their circumstances and move to a life of self-reliance and prosperity. We help them and their families by providing programs, information and resources and by advocacy, public outreach and media. 
+            <p className="py-10 mx-4 text-center">We offer a wide range of programs and services designed to give individuals and families more control of their economic mobility by helping them address the root causes of their circumstances and move to a life of self-reliance and prosperity. We help them and their families by providing programs, information and resources and by advocacy, public outreach and media. 
               
             We leverage technology, entrepreneurial approaches and collective impact collaboration to create sustainable solutions that transform the lives of children, families and communities locally, nationally and worldwide. We bring together entrepreneurs, community organizations, government and like minded individuals to create, finance and implement collaborative projects for the common good.</p>
 
-          <div className="flex flex-wrap py-10">
-            <div className="lg:w-5/12 px-4 ml-auto mb-6 text-left ">
+          <div className="lg:flex lg:flex-wrap lg:py-10">
+            <div className="lg:w-5/12 px-4 mr-auto mb-6 lg:text-left text-center">
               <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
                 Housing
             </h3>
               <p className="text-gray-600 mb-8">We create and administer partnerships between landlords, property managers, government and non-profit organizations to address families in housing crisis throughout Southern California. We provide individuals with solutions to prevent homelessness.</p>
             </div>
-            <div className="lg:w-6/12 px-4 mb-6">
-            <Image
-              src="/images/housing.svg"
-              alt="The Chance Project Logo"
-              width={1440}
-              height={721}
-            />
+            <div className="md:w-6/12 px-4 mb-6 mx-auto">
+              <Image
+                className="self-center"
+                src="/images/housing.svg"
+                alt="The Chance Project Logo"
+                width={1440}
+                height={721}
+              />
             </div>
           </div>
-          <div className="flex flex-wrap flex-col-reverse lg:flex-row  py-10">
-            <div className="lg:w-6/12 px-4 mb-6">
+          <div className="flex flex-wrap flex-col-reverse lg:flex-row lg:py-10">
+          <div className="md:w-6/12 px-4 mb-6 mx-auto">
             <Image
               src="/images/income.svg"
               alt="The Chance Project Logo"
@@ -49,7 +50,7 @@ export default function About() {
               height={721}
             />
             </div>
-            <div className="lg:w-5/12 px-4 ml-auto mb-6 text-right">
+            <div className="lg:w-5/12 px-4 ml-auto mb-6 lg:text-right text-center">
               <div className="align-middle">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
                   Income
@@ -60,8 +61,8 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap align-center mb-8 items-center py-10">
-            <div className="lg:w-5/12 px-4 ml-auto mb-6 text-left ">
+          <div className="lg:flex lg:flex-wrap mb-8 items-center py-10">
+            <div className="lg:w-5/12 px-4 mr-auto mb-6 lg:text-left text-center">
               <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
               Early Childhood Education
             </h3>
@@ -69,12 +70,12 @@ export default function About() {
 
               90% of a child’s brain is fully developed by the age of 5 years old. For this reason, The Chance Project has adopted a Cradle to Career approach that starts immediately at the very beginning..</p>
             </div>
-            <div className="lg:w-6/12 px-4 mb-6">
+            <div className="md:w-6/12 px-4 mb-6 mx-auto">
             <Image
               src="/images/education.svg"
               alt="The Chance Project Logo"
-              width={1440}
-              height={721}
+              width={1200}
+              height={650}
             />
             </div>
           </div>
