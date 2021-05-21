@@ -88,7 +88,7 @@ export default function Footer() {
           <a>
             <img
               className="h-12 w-28 sm:h-12"
-              src="/images/headerLogo.png"
+              src="/images/logo.svg"
               alt=""
             />
           </a>

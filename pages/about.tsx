@@ -14,8 +14,8 @@ export default function About() {
 
         <Header />
         <div className="content-wrap">
-      <section className="bg-white py-8 mt-auto sm:pl-5">
-        <div className="container max-w-5xl mx-auto">
+      <section className="pt-10 pb-20 mt-auto sm:pl-5">
+        <div className="container shadow-xl max-w-6xl mx-auto p-5">
           <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
             About Us
         </h1>
@@ -33,7 +33,6 @@ export default function About() {
             </div>
             <div className="md:w-6/12 px-4 mb-6 mx-auto">
               <Image
-                className="self-center"
                 src="/images/housing.svg"
                 alt="The Chance Project Logo"
                 width={1440}
@@ -61,7 +60,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="lg:flex lg:flex-wrap mb-8 items-center py-10">
+          <div className="lg:flex lg:flex-wrap mb-8 items-center pt-10">
             <div className="lg:w-5/12 px-4 mr-auto mb-6 lg:text-left text-center">
               <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">
               Early Childhood Education

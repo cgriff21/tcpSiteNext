@@ -27,7 +27,7 @@ export default function About() {
                   <p className="text-gray-600 ">We provide Early Childhood Educators and Family Support Workers with courses to obtain the Family Development Credential, along with continuing education units, to help families to set achievable goals for healthy self-reliance. We level the educational playing field for children by providing parents with the knowledge and tools needed to maximize their influence and the beneficial effect that only they can have on their children.
               </p>
                 </div>
-                <div className="md:w-6/12 px-4 mb-6 mx-auto">
+                <div className="md:w-6/12 px-4 mb-6 m-auto">
                   <Image
                     src="/images/studying.svg"
                     alt="The Chance Project Logo"

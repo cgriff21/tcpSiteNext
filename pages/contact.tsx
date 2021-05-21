@@ -58,7 +58,7 @@ export default function Contact() {
                   </div>
                   <div className="px-6 mt-4">
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                    <a className="text-indigo-500 leading-relaxed text-xs md:text-base">info@thechanceproject.org</a>
+                    <a className="text-TCPpurple-500 leading-relaxed text-xs md:text-base">info@thechanceproject.org</a>
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                     <p className="leading-relaxed">+1 (909) 414-3132</p>
                   </div>
