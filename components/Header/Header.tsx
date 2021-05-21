@@ -8,7 +8,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 export default function InitiativesHeader() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="w-full z-50 sticky top-0 bg-white">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -41,11 +41,11 @@ export default function InitiativesHeader() {
                   <Link href="/initiatives">
                     <a className="hover:text-gray-900">Our Initiatives</a>
                   </Link>
-                  <Link href="https://www.mightycause.com/organization/Chance-Project">
-                    <a className="hover:text-gray-900">Ways To Give</a>
-                  </Link>
                   <Link href="/contact">
                     <a className="hover:text-gray-900">Contact Us</a>
+                  </Link>
+                  <Link href="https://www.mightycause.com/organization/Chance-Project">
+                    <a className="hover:text-gray-900">Ways To Give</a>
                   </Link>
                   <Dropdown />
                 </nav>

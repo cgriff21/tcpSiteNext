@@ -47,7 +47,7 @@ export default function Home() {
         rotationAngleInclusive={false}
       >
         <CircleMenuItem>
-          <Link href="/">
+          <Link href="https://www.pathwaysnetwork.net/">
             <a className="circle-menu-item-text">
               Find Housing
             </a>

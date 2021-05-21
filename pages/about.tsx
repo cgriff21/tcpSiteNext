@@ -6,13 +6,15 @@ import Header from '@components/Header'
 export default function About() {
   return (
     <>
+    <div className="wrapper">
       <Head>
         <title>The Chance Project - About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
-      <section className="bg-white border-b py-8 sm:pl-5">
+        <Header />
+        <div className="content-wrap">
+      <section className="bg-white py-8 mt-auto sm:pl-5">
         <div className="container max-w-5xl mx-auto">
           <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
             About Us
@@ -78,7 +80,9 @@ export default function About() {
           </div>
         </div>
       </section>
+      </div>
       <Footer />
+      </div>
     </>
   )
 }

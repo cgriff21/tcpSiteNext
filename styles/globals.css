@@ -16,6 +16,12 @@ a {
 }
 
 
+.wrapper {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /*-----------------------------------
             Home Section  
 -----------------------------------*/
@@ -137,9 +143,12 @@ a {
 /*-----------------------------------
             Footer  
 -----------------------------------*/
+.bottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
 
-/* .bottom {
-  position:absolute;
-  bottom:0;
-  width:100%;
-} */
+.content-wrap{
+  flex-grow: 1;
+}
