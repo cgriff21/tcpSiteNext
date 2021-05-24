@@ -14,3 +14,151 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.wrapper {
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/*-----------------------------------
+            Home Section  
+-----------------------------------*/
+.home-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(/images/hands.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+
+/* CircleMenu */
+
+.circle-menu {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+} 
+
+.circle-menu-data {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+/* MenuToggle */
+
+.circle-menu-toggle {
+  position: relative;
+  background-color: #ffffff;
+  z-index: 200;
+}
+
+.circle-menu-toggle:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+/* MenuItem */
+
+.circle-menu-item {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -100px;
+  background-color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 100;
+}
+
+.circle-menu-item-text {
+  font-size: 1.5rem;
+}
+
+
+.circle-menu-active .circle-menu-item {
+  visibility: visible;
+  opacity: 0.85;
+}
+
+/* CircleButton */
+
+.circle-button {
+  color: #000000;
+  font-size: medium;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-flex;
+  margin-right: 1em;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  transition: all 0.5s;
+  opacity: .9;
+
+}
+
+.circle-button:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 800px) {
+  .circle-menu-item-text {
+    font-size: 0.8rem;
+  }
+  .circle-menu-item {
+    margin-left: -60px;
+  } 
+  .circle-menu {
+    margin-left: 14px;
+  } 
+  
+}
+
+@media (max-width: 500px) {
+  .circle-menu-item-text {
+    font-size: 0.65rem;
+  }
+  .circle-menu-item {
+    margin-left: -48px;
+  } 
+  .circle-menu {
+    margin-left: 8px;
+  } 
+  
+}
+
+/*-----------------------------------
+            Footer  
+-----------------------------------*/
+.bottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.content-wrap{
+  flex-grow: 1;
+}
+
+
+/*-----------------------------------
+            Sections  
+-----------------------------------*/
+
+.box-shadow {
+  box-shadow: 0 0px 25px -5px rgba(0, 0, 0, 0.1);
+}
