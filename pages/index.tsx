@@ -38,6 +38,9 @@ export default function Home() {
       <Head>
         <title>The Chance Project</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="The Chance Project is committed to ensuring every person has equal access to the resources they need to thrive." />
       </Head>
 
       <CircleMenu
