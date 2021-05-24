@@ -76,7 +76,7 @@ a {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: -96px;
+  margin-left: -100px;
   background-color: #ffffff;
   visibility: hidden;
   opacity: 0;
@@ -115,12 +115,12 @@ a {
   margin-right: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .circle-menu-item-text {
     font-size: 0.8rem;
   }
   .circle-menu-item {
-    margin-left: -56px;
+    margin-left: -60px;
   } 
   .circle-menu {
     margin-left: 14px;
@@ -128,7 +128,7 @@ a {
   
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .circle-menu-item-text {
     font-size: 0.65rem;
   }
@@ -159,6 +159,6 @@ a {
             Sections  
 -----------------------------------*/
 
-/* .images{
-
-} */
+.box-shadow {
+  box-shadow: 0 0px 25px -5px rgba(0, 0, 0, 0.1);
+}

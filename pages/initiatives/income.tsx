@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Footer from '@components/Footer'
 import Header from '@components/Header'
 
-export default function About() {
+export default function Income() {
   return (
     <>
       <div className="wrapper">
@@ -15,11 +15,11 @@ export default function About() {
         <Header />
         <div className="content-wrap">
           <section className="bg-white py-8">
-            <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-              Income
-        </h1>
 
-            <div className="container max-w-5xl m-auto lg:pt-24">
+            <div className="container box-shadow max-w-6xl mx-auto p-5">
+              <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+                Income
+              </h1>
               <div className="lg:flex lg:flex-wrap lg:py-10">
                 <div className="lg:w-5/12 px-4 ml-auto mb-6 lg:text-left text-center">
                   <h3 className="text-3xl text-gray-800 font-bold leading-none py-10">

@@ -4,7 +4,7 @@ import Footer from '@components/Footer'
 import Header from '@components/Header'
 import styles from '../../styles/Home.module.css'
 
-export default function TestPage() {
+export default function initiatives() {
   return (
     <>
       <div className="wrapper">
@@ -16,7 +16,7 @@ export default function TestPage() {
         <Header />
         <div className="content-wrap">
           <section className="bg-white py-8 mx-1 md:mx-6">
-            <div className="container max-w-5xl mx-auto">
+            <div className="container box-shadow max-w-6xl mx-auto p-5">
 
               <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800 ">
                 Our Initiatives

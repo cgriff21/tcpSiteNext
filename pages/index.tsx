@@ -14,20 +14,22 @@ export default function Home() {
     setWidth(window.innerWidth);
   });
 
-  const deviceWidth = width > 400 && width < 600;
-  const miniDevice = width < 400 && width < 600;
+  const phoneWidth = width < 500;
+  const ipadWidth = width > 500 && width < 800;
+
   let mainSize = 20;
-  let menuSize = 12;
+  let menuSize = 12; // screens over 800px wide
   let menuRadius = 24;
 
-  if (deviceWidth) {
-    mainSize = 8;
-    menuSize = 6;
-    menuRadius = 9;
-  } else if (miniDevice) {
-    mainSize = 7;
+  if (phoneWidth) {
+    mainSize = 7;   // under 500px wide
     menuSize = 5;
     menuRadius = 8;
+  }
+  else if (ipadWidth) {
+    mainSize = 10;     // between 500 & 800px
+    menuSize = 6;
+    menuRadius = 12;
   }
 
 

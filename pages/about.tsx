@@ -15,7 +15,7 @@ export default function About() {
         <Header />
         <div className="content-wrap">
       <section className="pt-10 pb-20 mt-auto sm:pl-5">
-        <div className="container shadow-xl max-w-6xl mx-auto p-5">
+        <div className="container box-shadow max-w-6xl mx-auto p-5">
           <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
             About Us
         </h1>
